@@ -1,0 +1,198 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    transition: all .20s;
+}
+
+body{
+    background-color: black;
+    font-family: Roboto, Tahoma, sans-serif;
+}
+
+#bot{
+    color: orangered;
+}
+
+#main{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+a:visited{
+    color: black;
+}
+
+.story img{
+    width: 100%;
+    border-radius: 2px;
+    
+}
+
+.art-img{
+    width: 25%;
+
+}
+
+.art-para{
+    width: 65%;
+    padding-left: 10px;
+}
+
+.art-para a{
+    color: orangered;
+}
+
+
+.art-para a:hover{
+    color: orange;
+}
+
+.art-para a:active{
+    color: orangered;
+}
+.art-para h2{
+    margin-top: 0%;
+    padding-top: 0%;
+}
+header{
+    margin-top: -22px;
+    padding-top: 20px;
+}
+
+header, nav{
+    text-align: center;
+
+}
+
+#nav ul{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    background-color:black;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+}
+
+#nav ul li{
+    color: orangered;
+    width: 100px;
+    padding-top: 9px;
+    padding-bottom: 12px;
+    border-radius: 2px;
+    text-align: center;
+    
+}
+
+#nav ul li:hover{
+    color: orange;
+}
+
+#nav ul li:active{
+    color: orangered;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.middle section{
+    width: 60%;
+    padding: 2%;
+}
+
+
+.middle aside{
+    width:28%;
+    margin: -16px auto -16px auto;
+    background-color: rgb(241, 239, 239);
+    
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#sidebar{
+    margin-right: 0px;
+    padding: 0% 25px 0% 25px;
+}
+
+.categories ul{
+    padding: 0;
+    
+}
+.categories ul li{
+    padding-bottom: 10PX;
+    font-size: large;
+    color: orangered;
+}
+
+.categories ul li:hover{
+    color: orange;
+}
+
+.categories ul li:active{
+    color: orangered;
+}
+
+button{
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+    color: orangered;
+    padding: 5px;
+    border-radius: 0%;
+    box-shadow: none;
+    border: 1px solid orangered;
+    margin: auto;
+    display: block;
+    width: 200px;
+}
+
+button:hover{
+    background-color: orangered;
+    color: white;
+}
+
+button:active{
+    background-color: white;
+    color: orangered;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    height: 50px;
+    padding-top: 1px;
+    margin-top: 16px;
+    margin-bottom: -20px;
+    background-color: black;
+}
+
+footer a{
+    color: orangered;
+}
+
+footer a:visited{
+    color:orangered;
+}
+
+footer a:hover{
+    color: orange;
+}
+footer a:active{
+    color:orangered;
+}
+
+.heart{
+    color: red;;
+}
